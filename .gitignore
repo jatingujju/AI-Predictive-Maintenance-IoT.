@@ -1,0 +1,22 @@
+
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.vscode/
+.env
+.streamlit/secrets.toml
+
+# Temporary and operating-system files
+.DS_Store
+Thumbs.db
+*.log
+
+# Raw and processed datasets can be downloaded or regenerated
+data/raw/
+data/processed/
+
+# Keep the trained model and evaluation charts for the demo
+# Keep outputs/reports/metrics.json and predictions if desired
